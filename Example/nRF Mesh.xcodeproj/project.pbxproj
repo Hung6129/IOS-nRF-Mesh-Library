@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02BDC887197C949210A405CC /* Pods_nRF_Mesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F08AB8E3B7A1B0401824E1C /* Pods_nRF_Mesh.framework */; };
+		0E604E0229EFE18A00A661B2 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E0129EFE18A00A661B2 /* CommonClass.swift */; };
+		0E604E0729EFE7B100A661B2 /* NewProvisioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E0629EFE7B100A661B2 /* NewProvisioningViewController.swift */; };
 		3089BCA02099CA4900E30192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089BC9E2099CA4900E30192 /* LaunchScreen.storyboard */; };
 		520A7D6724F3E05A00BF370A /* RightActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520A7D6624F3E05A00BF370A /* RightActionCell.swift */; };
 		5211EAD5250777E100089FF2 /* SceneServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211EAD4250777E100089FF2 /* SceneServerDelegate.swift */; };
@@ -180,6 +182,8 @@
 
 /* Begin PBXFileReference section */
 		0DAC1677AA94583D28A5867E /* Pods_nRF_Mesh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nRF_Mesh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E604E0129EFE18A00A661B2 /* CommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
+		0E604E0629EFE7B100A661B2 /* NewProvisioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProvisioningViewController.swift; sourceTree = "<group>"; };
 		120A65829D431C9BB34317E3 /* Pods-nRF Mesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh.debug.xcconfig"; path = "Target Support Files/Pods-nRF Mesh/Pods-nRF Mesh.debug.xcconfig"; sourceTree = "<group>"; };
 		18CF2FBA1EF36591ACDE6C56 /* Pods-nRF Mesh Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh Tests.release.xcconfig"; path = "Target Support Files/Pods-nRF Mesh Tests/Pods-nRF Mesh Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19E43D046A5D53A99450BB33 /* Pods-nRFMeshProvision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRFMeshProvision_Tests.debug.xcconfig"; path = "Target Support Files/Pods-nRFMeshProvision_Tests/Pods-nRFMeshProvision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -598,6 +602,7 @@
 				5283528122806D7C0097B949 /* NetworkKeySelectionViewController.swift */,
 				528352BB2285B6150097B949 /* OobSelector.swift */,
 				528AB9F9228D856C000BE9DC /* ProvisioningViewDelegate.swift */,
+				0E604E0629EFE7B100A661B2 /* NewProvisioningViewController.swift */,
 			);
 			path = Provisioning;
 			sourceTree = "<group>";
@@ -635,6 +640,7 @@
 				52DA9D7124F6765C0051795B /* UInt16+Time.swift */,
 				5292F8A225021B8F00EA0F2A /* ModelIdentifiers.swift */,
 				52B6C50E2811712D00F6E0F3 /* UITableViewCell+Disabled.swift */,
+				0E604E0129EFE18A00A661B2 /* CommonClass.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -877,7 +883,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3R8YQEV4L;
+						DevelopmentTeam = 37RVFEFMT6;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -964,10 +970,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-nRF Mesh/Pods-nRF Mesh-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProgressView/SwiftProgressView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProgressView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1127,12 +1135,14 @@
 				52E54CD22343871E00478F05 /* GenericOnOffClientCell.swift in Sources */,
 				520A7D6724F3E05A00BF370A /* RightActionCell.swift in Sources */,
 				52E54CCD23437B9700478F05 /* ElementSectionView.swift in Sources */,
+				0E604E0729EFE7B100A661B2 /* NewProvisioningViewController.swift in Sources */,
 				5288C2142371B32200321ED3 /* SimpleOnOffStatus.swift in Sources */,
 				5251498122E0E36600CBF1E3 /* AddGroupViewController.swift in Sources */,
 				5211EADB25090DB000089FF2 /* SceneSetupServerDelegate.swift in Sources */,
 				5292F8A325021B8F00EA0F2A /* ModelIdentifiers.swift in Sources */,
 				52835258227AEDA30097B949 /* DeviceCell.swift in Sources */,
 				52E54CD82343876000478F05 /* GenericLevelServerCell.swift in Sources */,
+				0E604E0229EFE18A00A661B2 /* CommonClass.swift in Sources */,
 				A7B526A7277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift in Sources */,
 				5212152D231545D40059FB3D /* ModelGroupCell.swift in Sources */,
 				52A8EA8D24E6A470004C14C7 /* SetHeartbeatPublicationViewController.swift in Sources */,
@@ -1408,7 +1418,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = "nRF Mesh.entitlements";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 37RVFEFMT6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1418,7 +1428,7 @@
 				MARKETING_VERSION = 3.2.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apollopro.dienquang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
@@ -1435,7 +1445,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = "nRF Mesh.entitlements";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 37RVFEFMT6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1445,7 +1455,7 @@
 				MARKETING_VERSION = 3.2.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apollopro.dienquang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;

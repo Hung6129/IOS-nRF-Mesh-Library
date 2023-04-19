@@ -2,13 +2,16 @@ PODS:
   - CryptoSwift (1.5.1)
   - nRFMeshProvision (3.2.0):
     - CryptoSwift (= 1.5.1)
+  - SwiftProgressView (1.3.1)
 
 DEPENDENCIES:
   - nRFMeshProvision (from `../`)
+  - SwiftProgressView
 
 SPEC REPOS:
   trunk:
     - CryptoSwift
+    - SwiftProgressView
 
 EXTERNAL SOURCES:
   nRFMeshProvision:
@@ -17,7 +20,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
   nRFMeshProvision: 0f0a0b9e83e4a77bb4df1b7dfdb3838f526875d0
+  SwiftProgressView: 4ccf1adb8e7c2ae761b3c1301604a6582b9899d2
 
-PODFILE CHECKSUM: 7cc7716b26d7b48417d133ade7f226b124142378
+PODFILE CHECKSUM: 47d64101a0a467b51773b7bc9a390c24f07fca7c
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0

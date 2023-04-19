@@ -1,0 +1,6 @@
+framework module SwiftProgressView {
+  umbrella header "SwiftProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
