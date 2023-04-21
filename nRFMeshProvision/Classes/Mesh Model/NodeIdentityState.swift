@@ -28,6 +28,8 @@
 * POSSIBILITY OF SUCH DAMAGE.
 */
 
+
+
 import Foundation
 
 /// The Node Identity state determines if a node is advertising with Node Identity

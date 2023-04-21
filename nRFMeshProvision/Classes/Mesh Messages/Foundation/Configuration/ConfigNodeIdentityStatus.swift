@@ -28,6 +28,8 @@
 * POSSIBILITY OF SUCH DAMAGE.
 */
 
+
+
 import Foundation
 
 public struct ConfigNodeIdentityStatus: ConfigNetKeyMessage, ConfigStatusMessage {

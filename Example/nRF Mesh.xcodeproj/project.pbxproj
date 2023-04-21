@@ -10,6 +10,16 @@
 		02BDC887197C949210A405CC /* Pods_nRF_Mesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F08AB8E3B7A1B0401824E1C /* Pods_nRF_Mesh.framework */; };
 		0E604E0229EFE18A00A661B2 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E0129EFE18A00A661B2 /* CommonClass.swift */; };
 		0E604E0729EFE7B100A661B2 /* NewProvisioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E0629EFE7B100A661B2 /* NewProvisioningViewController.swift */; };
+		0E604E3E29F0D4E900A661B2 /* Devices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E604E3D29F0D4E900A661B2 /* Devices.storyboard */; };
+		0E604E4129F0D52C00A661B2 /* DevicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E4029F0D52C00A661B2 /* DevicesVC.swift */; };
+		0E604E4329F0D58A00A661B2 /* DevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E4229F0D58A00A661B2 /* DevicesCell.swift */; };
+		0E604E4829F0D6CC00A661B2 /* ScanDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E4729F0D6CC00A661B2 /* ScanDeviceVC.swift */; };
+		0E604E4A29F0D6DE00A661B2 /* ScanDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E4929F0D6DE00A661B2 /* ScanDeviceCell.swift */; };
+		0E604E4C29F0D83600A661B2 /* ProvisionDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E4B29F0D83600A661B2 /* ProvisionDeviceVC.swift */; };
+		0E604E5029F0DD3C00A661B2 /* ConfigureNodeCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E4F29F0DD3C00A661B2 /* ConfigureNodeCollectionVC.swift */; };
+		0E604E5229F0EB1D00A661B2 /* ModelCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E5129F0EB1D00A661B2 /* ModelCollectionCell.swift */; };
+		0E604E5429F0EB4600A661B2 /* ElementCollectionReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E5329F0EB4600A661B2 /* ElementCollectionReusable.swift */; };
+		0E604E5629F1031800A661B2 /* GenericOnOffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E604E5529F1031800A661B2 /* GenericOnOffCell.swift */; };
 		3089BCA02099CA4900E30192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089BC9E2099CA4900E30192 /* LaunchScreen.storyboard */; };
 		520A7D6724F3E05A00BF370A /* RightActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520A7D6624F3E05A00BF370A /* RightActionCell.swift */; };
 		5211EAD5250777E100089FF2 /* SceneServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211EAD4250777E100089FF2 /* SceneServerDelegate.swift */; };
@@ -184,6 +194,16 @@
 		0DAC1677AA94583D28A5867E /* Pods_nRF_Mesh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nRF_Mesh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E604E0129EFE18A00A661B2 /* CommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
 		0E604E0629EFE7B100A661B2 /* NewProvisioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProvisioningViewController.swift; sourceTree = "<group>"; };
+		0E604E3D29F0D4E900A661B2 /* Devices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Devices.storyboard; sourceTree = "<group>"; };
+		0E604E4029F0D52C00A661B2 /* DevicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesVC.swift; sourceTree = "<group>"; };
+		0E604E4229F0D58A00A661B2 /* DevicesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesCell.swift; sourceTree = "<group>"; };
+		0E604E4729F0D6CC00A661B2 /* ScanDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDeviceVC.swift; sourceTree = "<group>"; };
+		0E604E4929F0D6DE00A661B2 /* ScanDeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDeviceCell.swift; sourceTree = "<group>"; };
+		0E604E4B29F0D83600A661B2 /* ProvisionDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisionDeviceVC.swift; sourceTree = "<group>"; };
+		0E604E4F29F0DD3C00A661B2 /* ConfigureNodeCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureNodeCollectionVC.swift; sourceTree = "<group>"; };
+		0E604E5129F0EB1D00A661B2 /* ModelCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCollectionCell.swift; sourceTree = "<group>"; };
+		0E604E5329F0EB4600A661B2 /* ElementCollectionReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCollectionReusable.swift; sourceTree = "<group>"; };
+		0E604E5529F1031800A661B2 /* GenericOnOffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericOnOffCell.swift; sourceTree = "<group>"; };
 		120A65829D431C9BB34317E3 /* Pods-nRF Mesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh.debug.xcconfig"; path = "Target Support Files/Pods-nRF Mesh/Pods-nRF Mesh.debug.xcconfig"; sourceTree = "<group>"; };
 		18CF2FBA1EF36591ACDE6C56 /* Pods-nRF Mesh Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh Tests.release.xcconfig"; path = "Target Support Files/Pods-nRF Mesh Tests/Pods-nRF Mesh Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19E43D046A5D53A99450BB33 /* Pods-nRFMeshProvision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRFMeshProvision_Tests.debug.xcconfig"; path = "Target Support Files/Pods-nRFMeshProvision_Tests/Pods-nRFMeshProvision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -388,6 +408,87 @@
 				0DAC1677AA94583D28A5867E /* Pods_nRF_Mesh_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E604E3A29F0D49300A661B2 /* HungDev */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E3C29F0D4D300A661B2 /* ViewControllers */,
+				0E604E3B29F0D4CB00A661B2 /* UI */,
+			);
+			path = HungDev;
+			sourceTree = "<group>";
+		};
+		0E604E3B29F0D4CB00A661B2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E3D29F0D4E900A661B2 /* Devices.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0E604E3C29F0D4D300A661B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E3F29F0D50800A661B2 /* Devices */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E604E3F29F0D50800A661B2 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E4D29F0DCDC00A661B2 /* Control */,
+				0E604E4429F0D69000A661B2 /* Scan&Provision */,
+				0E604E4029F0D52C00A661B2 /* DevicesVC.swift */,
+				0E604E4229F0D58A00A661B2 /* DevicesCell.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		0E604E4429F0D69000A661B2 /* Scan&Provision */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E4629F0D6B100A661B2 /* Provision */,
+				0E604E4529F0D6A400A661B2 /* Scan */,
+			);
+			path = "Scan&Provision";
+			sourceTree = "<group>";
+		};
+		0E604E4529F0D6A400A661B2 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E4729F0D6CC00A661B2 /* ScanDeviceVC.swift */,
+				0E604E4929F0D6DE00A661B2 /* ScanDeviceCell.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		0E604E4629F0D6B100A661B2 /* Provision */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E4B29F0D83600A661B2 /* ProvisionDeviceVC.swift */,
+			);
+			path = Provision;
+			sourceTree = "<group>";
+		};
+		0E604E4D29F0DCDC00A661B2 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E4E29F0DCE700A661B2 /* Light */,
+				0E604E4F29F0DD3C00A661B2 /* ConfigureNodeCollectionVC.swift */,
+				0E604E5329F0EB4600A661B2 /* ElementCollectionReusable.swift */,
+				0E604E5129F0EB1D00A661B2 /* ModelCollectionCell.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		0E604E4E29F0DCE700A661B2 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				0E604E5529F1031800A661B2 /* GenericOnOffCell.swift */,
+			);
+			path = Light;
 			sourceTree = "<group>";
 		};
 		3B91DB027C0AE9896666D139 /* Pods */ = {
@@ -762,6 +863,7 @@
 		607FACD21AFB9204008FA782 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0E604E3A29F0D49300A661B2 /* HungDev */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				52DF5D8D22968F7C00C297C1 /* Mesh Network */,
 				52835253227AEC8C0097B949 /* View Controllers */,
@@ -940,6 +1042,7 @@
 				3089BCA02099CA4900E30192 /* LaunchScreen.storyboard in Resources */,
 				52CD0A5B2330BF4800A9A181 /* Proxy.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0E604E3E29F0D4E900A661B2 /* Devices.storyboard in Resources */,
 				A7B526A8277B210000F5C60D /* GenericPowerOnOffSetup.xib in Resources */,
 				52A9C1C62313D7D80036792A /* GenericLevel.xib in Resources */,
 				F085CA0229D1E0B900C2DF89 /* Subscribe.storyboard in Resources */,
@@ -1046,10 +1149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E604E4329F0D58A00A661B2 /* DevicesCell.swift in Sources */,
 				52DE3ABA25DA871800268D7D /* SensorClientDelegate.swift in Sources */,
 				529B764722522D37008F1CE7 /* UITableView+EmptyView.swift in Sources */,
 				5288153D25125AB600484AF0 /* RootTabBarController.swift in Sources */,
+				0E604E4C29F0D83600A661B2 /* ProvisionDeviceVC.swift in Sources */,
 				52CD0A55232FC11700A9A181 /* AddressCell.swift in Sources */,
+				0E604E5629F1031800A661B2 /* GenericOnOffCell.swift in Sources */,
 				52313FEE22EAFB090074325A /* SubscribeViewController.swift in Sources */,
 				5212152B23152A450059FB3D /* SectionView.swift in Sources */,
 				5212152F231554190059FB3D /* ProgressCollectionViewController.swift in Sources */,
@@ -1099,6 +1205,7 @@
 				A7A59BD92773218C0045A8ED /* GenericPowerOnOffClientDelegate.swift in Sources */,
 				523F776622C609D90030EA6A /* NodeNetworkKeysViewController.swift in Sources */,
 				5211EAD5250777E100089FF2 /* SceneServerDelegate.swift in Sources */,
+				0E604E5429F0EB4600A661B2 /* ElementCollectionReusable.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				523F776C22C6324A0030EA6A /* ProgressViewController.swift in Sources */,
 				52547F25232A3F470002AA7B /* EditProvisionerViewController.swift in Sources */,
@@ -1107,6 +1214,7 @@
 				529B756D223FE7F1008F1CE7 /* RootViewController.swift in Sources */,
 				52CD0A53232FA79300A9A181 /* FilterTypeCell.swift in Sources */,
 				523F776822C615CE0030EA6A /* NodeAppKeysViewController.swift in Sources */,
+				0E604E5229F0EB1D00A661B2 /* ModelCollectionCell.swift in Sources */,
 				523F777922CB57190030EA6A /* ModelViewController.swift in Sources */,
 				522AFFE022C2376C00521EDC /* ElementViewController.swift in Sources */,
 				5288C20E2371A91900321ED3 /* SimpleOnOffSet.swift in Sources */,
@@ -1147,14 +1255,18 @@
 				5212152D231545D40059FB3D /* ModelGroupCell.swift in Sources */,
 				52A8EA8D24E6A470004C14C7 /* SetHeartbeatPublicationViewController.swift in Sources */,
 				A7A59BD7277225E70045A8ED /* GenericPowerOnOffViewCell.swift in Sources */,
+				0E604E5029F0DD3C00A661B2 /* ConfigureNodeCollectionVC.swift in Sources */,
 				52547F26232A3F470002AA7B /* ProvisionersViewController.swift in Sources */,
+				0E604E4129F0D52C00A661B2 /* DevicesVC.swift in Sources */,
 				52518B3322E0B43200A1FD1E /* GroupCell.swift in Sources */,
 				529B7570223FF1AE008F1CE7 /* SettingsViewController.swift in Sources */,
 				5292F8A1250137DC00EA0F2A /* NodeScenesViewController.swift in Sources */,
 				526021F62343660200E88F06 /* ControlViewCell.swift in Sources */,
 				5245737B2500E10800CF8500 /* ScenesViewController.swift in Sources */,
+				0E604E4A29F0D6DE00A661B2 /* ScanDeviceCell.swift in Sources */,
 				52A9C1C52313D7D80036792A /* GenericLevelViewCell.swift in Sources */,
 				5288C20A2371A89900321ED3 /* SimpleOnOffClientDelegate.swift in Sources */,
+				0E604E4829F0D6CC00A661B2 /* ScanDeviceVC.swift in Sources */,
 				529B759C2243BA10008F1CE7 /* NetworkKeysViewController.swift in Sources */,
 				521599D525E91F9300F602FA /* SensorValueCell.swift in Sources */,
 				52518B3122E0B18400A1FD1E /* GroupsViewController.swift in Sources */,
